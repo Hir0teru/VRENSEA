@@ -6,11 +6,15 @@ public class TeleportationScript : MonoBehaviour {
 
 	public Transform destination;
 	void OnTriggerEnter (Collider other){
-		if (other.tag == "Player") {
+		if (other.tag == "Player" && ScoreScript.instance.score == 4) {
 			var startPosition = other.transform.position;
 			other.transform.position = destination.position;
 			var moveDelta = other.transform.position - startPosition;
 			Camera.main.transform.position += moveDelta;
 		}
+        else
+        {
+
+        }
 	}
 }
