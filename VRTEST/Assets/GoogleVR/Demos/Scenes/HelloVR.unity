@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 401403234}
   - component: {fileID: 401403236}
   - component: {fileID: 401403235}
+  - component: {fileID: 401403237}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: Untagged
@@ -648,7 +649,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 401403229}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.99, y: 5, z: 5.91}
   m_LocalScale: {x: 0.88971126, y: 0.8794263, z: 0.55587}
   m_Children: []
   m_Father: {fileID: 567277153}
@@ -889,6 +890,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &401403237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401403229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5d61328e9624edd8fada73f6c3692c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &402391661
 Prefab:
   m_ObjectHideFlags: 0
@@ -1288,6 +1300,7 @@ GameObject:
   - component: {fileID: 951835774}
   - component: {fileID: 951835775}
   - component: {fileID: 951835776}
+  - component: {fileID: 951835777}
   m_Layer: 0
   m_Name: Cube1
   m_TagString: Untagged
@@ -1353,7 +1366,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 951835769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.56, y: 4.05, z: 4.24}
   m_LocalScale: {x: 0.86001706, y: 0.8104164, z: 0.55587476}
   m_Children: []
   m_Father: {fileID: 567277153}
@@ -1544,6 +1557,17 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &951835777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951835769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5d61328e9624edd8fada73f6c3692c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &955127915
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,6 +2062,7 @@ GameObject:
   - component: {fileID: 1183305527}
   - component: {fileID: 1183305529}
   - component: {fileID: 1183305528}
+  - component: {fileID: 1183305530}
   m_Layer: 0
   m_Name: Cube3
   m_TagString: Untagged
@@ -2052,7 +2077,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1183305522}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.02, y: 5.24, z: 13.23}
   m_LocalScale: {x: 0.86002, y: 0.81042, z: 0.7572132}
   m_Children: []
   m_Father: {fileID: 567277153}
@@ -2293,6 +2318,17 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &1183305530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183305522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5d61328e9624edd8fada73f6c3692c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1199920616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,6 +2461,7 @@ GameObject:
   - component: {fileID: 1420022165}
   - component: {fileID: 1420022164}
   - component: {fileID: 1420022167}
+  - component: {fileID: 1420022168}
   m_Layer: 0
   m_Name: Cube4
   m_TagString: Untagged
@@ -2439,7 +2476,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1420022162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.09, y: 4.96, z: 10.6}
   m_LocalScale: {x: 0.6081911, y: 0.58737344, z: 0.537375}
   m_Children: []
   m_Father: {fileID: 567277153}
@@ -2509,6 +2546,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 0}
   gazedAtMaterial: {fileID: 0}
+--- !u!114 &1420022168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420022162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5d61328e9624edd8fada73f6c3692c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1490385947
 GameObject:
   m_ObjectHideFlags: 0
